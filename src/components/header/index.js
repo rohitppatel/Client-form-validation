@@ -11,7 +11,7 @@ const Header = () => {
         <p className="FED-banner-detail m-0 mx-auto d-block text-center">Enjoy spreads <strong>as low as 0.6 pips and
             leverage up to 1000:1</strong> on<br/> instruments like <strong>EURUSD, USDJPY, EURJPY, GBPUSD,</strong> and
           <strong>Gold.</strong></p>
-        <button className="FED-banner-btn d-block">open account</button>
+        <button className="FED-banner-btn d-block" onClick={() => window.scrollTo({ top: 1900, behavior: 'smooth' })}>open account</button>
         <p className="try-tranding">New to trading? Try a <a href="#">Demo account.</a></p>
 
         <p className="try-tranding m-0">Terms and Conditions apply<span className="text-red">*</span>. To read the full T&Cs,
